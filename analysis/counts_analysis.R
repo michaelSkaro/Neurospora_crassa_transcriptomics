@@ -22,13 +22,13 @@ library(RColorBrewer)
 
 # Read in the annotation data
 
-coldata <- data.table::fread("Annotation/Sample_Info.csv", header = TRUE)
+coldata <- data.table::fread("~/Sample_Info.csv", header = TRUE)
 rownames(coldata) <- coldata$UUID # check colnames in read in
 
 
 # DONE
 # read in the counts data and make an unstranded RNA counts
-samples <- list.files("~/storage/neurospora_crassa/geneCounts")
+samples <- list.files("~/geneCounts")
 i <- samples[1]
 tmp <- dat[,1]
 tmp <- tmp[,1]
@@ -171,7 +171,7 @@ for(i in samples){
 ######################################
 ######################################
 ######################################
-df <- data.table::fread("/mnt/storage/mskaro1/neurospora_crassa/results/mRNA_counts.csv") %>%
+df <- data.table::fread("~/mRNA_counts.csv") %>%
   dplyr::select(-V1) %>%
   tibble::column_to_rownames("geneID")
 # Analyze differential expression of NC genes
