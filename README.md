@@ -30,6 +30,14 @@ Table of MATLAB scripts to calculate varied inheritance models for the discrete 
 | environmental        | 84.27  | 6  | <0.0001 | 84.27 – 44.61 = 39.66    | <0.0001           | HA = additive, H2 = (84.27 – 44.61)/84.27 = 0.47, H0 = environmental model, H1 = full additive model | Estimator_inh_model_environmental_fixed_sizes_V8.m |
 
 
+Heritability:
+```
+H0 = environmental model
+H1 = full additive model	
+H2 = (84.27 – 44.61)/84.27 = 0.47
+```
+
+
 TO RUN:
 ```
 $ alias matlab='/Applications/{YOUR MATLAB}/bin/matlab -nodesktop -nosplash $*'
