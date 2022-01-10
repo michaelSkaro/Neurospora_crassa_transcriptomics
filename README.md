@@ -28,3 +28,24 @@ Table of MATLAB scripts to calculate varied inheritance models for the discrete 
 | αγ=γ=0               | 126.37 | 2  | <0.0001 | 126.37 – 11.11 = 115.26  | <0.0001           | HA = αγ=0                                                                                            | estimator_inh_model_ac_c_loglinear_V8.m            |
 | αβ=βγ=αγ=0, additive | 44.61  | 3  | <0.0001 | 44.61 – 13.37 = 31.24    | <0.0001           | HA = αβ=0                                                                                            | estimator_inh_model_additive_fixed_sizes_V8.m      |
 | environmental        | 84.27  | 6  | <0.0001 | 84.27 – 44.61 = 39.66    | <0.0001           | HA = additive, H2 = (84.27 – 44.61)/84.27 = 0.47, H0 = environmental model, H1 = full additive model | Estimator_inh_model_environmental_fixed_sizes_V8.m |
+
+
+TO RUN:
+```
+$ alias matlab='/Applications/{YOUR MATLAB}/bin/matlab -nodesktop -nosplash $*'
+
+$ matlab
+```
+
+MATLAB: 
+
+```Matlab
+
+>>> estimator_inh_model_full_espistatic_loglinear_V8
+
+```
+
+
+
+
+
