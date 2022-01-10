@@ -16,5 +16,8 @@ A simple differential expression analysis was conducted using the quantification
 ### Genetic model: 
 Table of MATLAB scripts to calculate varied inheritance models for the discrete complex trait of conidiophore type by the Method of Maximum likelihood using iteratively reweighted least squares.  The first 8 columns taken from Table 6 is some of the output of the MATLAB script.  The last column is the name of the corresponding MATLAB script.  Each script is self contained and can simply be run within MATLAB by hitting run once the script is clicked on and opened.
 
+```Matlab
+>>> test
 
+```
 
