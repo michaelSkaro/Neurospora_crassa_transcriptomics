@@ -21,3 +21,48 @@ Table of MATLAB scripts to calculate varied inheritance models for the discrete 
 
 ```
 
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
+```Matlab
+>>> test
+
+```
+
