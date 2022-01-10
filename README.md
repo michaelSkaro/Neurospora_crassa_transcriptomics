@@ -4,7 +4,7 @@ Characterizing the gene-environment interaction underlying natural morphological
 ### Quantification:
 The quantificaiton scripts are written for the alignment of short read illumina RNA sequencing data. The data was quantified using two standard pipelines. The counts and differentially expressed transcripts were cross validated to ensure the reproducibility of results. The genome annotation was built on GCF_000182925.2_NC12_genomic.fna.gz 
 
-Shel scipt command to run quantificaiton:
+CLI:
 ```
 nohup ./star_quantification.sh &
 ```
